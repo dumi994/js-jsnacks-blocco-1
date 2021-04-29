@@ -4,8 +4,10 @@ console.log(numPow);
 document.getElementById('risultato').innerHTML = numPow;
 document.getElementById('testo').innerHTML = 'il risultato del tuo cubo è : ';
 
-for (var i=1; i < numUtente; i++){
-    console.log(i);
+for (var i=0; i < numUtente; i++){
+var nuovoNum = Math.pow(i, 3);
+
+    console.log(nuovoNum);
     var nuovoNum = numUtente;
 }
 
