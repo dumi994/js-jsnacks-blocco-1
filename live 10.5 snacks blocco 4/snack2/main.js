@@ -9,7 +9,7 @@ console.log(rettangolo);
 //Calcolare perimetro e area.
 var area = rettangolo.base * rettangolo.altezza;
 console.log("l'area del rettangolo è " + area);
-var perimetro = (rettangolo.base + rettangolo.altezza) * 2;
+var perimetro = (rettangolo.base *2) + (rettangolo.altezza * 2);
 console.log("il perimetro del rettangolo è " + perimetro);
 
 
